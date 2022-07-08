@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 32px;
+}
+
+input {
+  display: block;
+  padding: 0 16px;
+  height: 40px;
+}
+
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  padding: 0 16px;
+  height: 40px;
+}
+
+.form.touched.invalid {
+  border: red solid 1px;
+}
+
+.form-column {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-field.touched.invalid {
+  color: red;
+}
+
+.input.touched.invalid {
+  border-color: red;
+}
